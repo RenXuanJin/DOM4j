@@ -27,6 +27,7 @@ public class Dom4jParseUserXmlTest {
                     System.out.println("user标签下的子标签名为:"+userSubElement.getName());
                     System.out.println("user标签下的子标签文本是:"+userSubElement.getText());
                 }
+                System.out.println();
             }
             //获取users标签的第一个user标签
             Element firstUserElement = rootElement.element("user");
